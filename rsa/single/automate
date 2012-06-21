@@ -1,0 +1,6 @@
+make realclean
+make
+./rsa -genkeys
+./rsa -encrypt test.txt
+./rsa -decrypt encrypt_test.txt
+ls -la | grep test

@@ -1,0 +1,43 @@
+#
+# 	RSA authentication process script
+#
+
+# The following uses the example of the "signed" message in the original RSA
+# paper "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems". 
+
+make clean
+make
+
+# First, remove the old files
+rm EA DA EB DB S EAS AS AM
+
+# Generate keys for Alice: EA (public), DA (private)
+./rsa -genkeys EA DA
+
+# Generate keys for Bob: EB (public), DB (private)
+# Note: the random number generator used is seeded by a call to time, thus to ensure
+# that a super fast computer doesnt produce the same key sets for Alice and Bob, 
+# sleep for one second
+sleep 1
+./rsa -genkeys EB DB
+
+# Suppose Bob wants to send Alice a message M and its signature
+# Firstly Alice sends Bob EA, and likewise Bob sends Alice EB
+
+# Bob first computes his "signature" S for the message M
+./rsa -encrypt M -out S -key DB
+
+# Bob then encrypts S for security, and then sends Alice the result EAS
+./rsa -encrypt S -out EAS -key EA
+
+# Alice decrypts the ciphertext EAS with DA to give AS (should be similar to as S)
+# Note that -raw flag. This is because the decrypted text will be binary rather than ASCII
+./rsa -decrypt EAS -raw -out AS -key DA
+#ls -la AS && ls -la S
+
+# Alice then extracts the message Bob sent her using EB to give AM. AM should be 
+# the same as M.
+./rsa -decrypt AS -out AM -key EB
+ls -la AM && ls -la M
+
+# At this point, Alice has a message-signature pair (AM, AS), and so does Bob (M, S).  

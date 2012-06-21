@@ -1,0 +1,10 @@
+make clean
+rm publickey privatekey encrypt_test.txt decrypt_encrypt_test.txt
+
+make
+
+./rsa -genkeys publickey privatekey
+./rsa -encrypt test.txt -out encrypt_test.txt -key publickey
+./rsa -decrypt encrypt_test.txt -out decrypt_encrypt_test.txt -key privatekey
+
+ls -la test.txt && ls -la decrypt_encrypt_test.txt
