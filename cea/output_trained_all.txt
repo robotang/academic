@@ -1,0 +1,283 @@
+Running CEA with class[0] = 1
+
+	Training with training_data[0] = 31111
+	S[1]	(0, 0, 0, 0)
+	G[5]	(2, ?, ?, ?), (3, ?, ?, ?), (?, 2, ?, ?), (?, ?, 2, ?), (?, ?, ?, 2)
+
+	Training with training_data[1] = 21112
+	S[1]	(0, 0, 0, 0)
+	G[4]	(2, ?, ?, ?), (3, ?, ?, ?), (?, 2, ?, ?), (?, ?, 2, ?)
+
+	Training with training_data[2] = 31121
+	S[1]	(0, 0, 0, 0)
+	G[4]	(2, ?, ?, ?), (3, ?, ?, ?), (?, 2, ?, ?), (?, ?, 2, 2)
+
+	Training with training_data[3] = 11122
+	S[1]	(1, 1, 2, 2)
+	G[1]	(?, ?, 2, 2)
+
+	Training with training_data[4] = 31211
+	S[1]	(1, 1, 2, 2)
+	G[1]	(?, ?, 2, 2)
+
+	Training with training_data[5] = 21212
+	S[1]	(1, 1, 2, 2)
+	G[1]	(?, ?, 2, 2)
+
+	Training with training_data[6] = 31221
+	S[1]	(1, 1, 2, 2)
+	G[1]	(?, ?, 2, 2)
+
+	Training with training_data[7] = 11222
+	S[1]	(1, ?, 2, 2)
+	G[1]	(?, ?, 2, 2)
+
+	Training with training_data[8] = 32111
+	S[1]	(1, ?, 2, 2)
+	G[1]	(?, ?, 2, 2)
+
+	Training with training_data[9] = 22112
+	S[1]	(1, ?, 2, 2)
+	G[1]	(?, ?, 2, 2)
+
+	Training with training_data[10] = 32121
+	S[1]	(1, ?, 2, 2)
+	G[1]	(?, ?, 2, 2)
+
+	Training with training_data[11] = 12122
+	S[1]	(?, ?, 2, 2)
+	G[1]	(?, ?, 2, 2)
+
+	Training with training_data[12] = 32211
+	S[1]	(?, ?, 2, 2)
+	G[1]	(?, ?, 2, 2)
+
+	Training with training_data[13] = 22212
+	S[1]	(?, ?, 2, 2)
+	G[1]	(?, ?, 2, 2)
+
+	Training with training_data[14] = 32221
+	S[1]	(?, ?, 2, 2)
+	G[1]	(?, ?, 2, 2)
+
+	Training with training_data[15] = 32222
+	S[1]	(?, ?, 2, 2)
+	G[0]	(EMPTY!)
+
+	Training with training_data[16] = 33111
+	S[1]	(?, ?, 2, 2)
+	G[0]	(EMPTY!)
+
+	Training with training_data[17] = 33121
+	S[1]	(?, ?, 2, 2)
+	G[0]	(EMPTY!)
+
+	Training with training_data[18] = 13122
+	S[1]	(?, ?, 2, 2)
+	G[0]	(EMPTY!)
+
+	Training with training_data[19] = 33211
+	S[1]	(?, ?, 2, 2)
+	G[0]	(EMPTY!)
+
+	Training with training_data[20] = 23212
+	S[1]	(?, ?, 2, 2)
+	G[0]	(EMPTY!)
+
+	Training with training_data[21] = 33221
+	S[1]	(?, ?, 2, 2)
+	G[0]	(EMPTY!)
+
+	Training with training_data[22] = 33222
+	S[1]	(?, ?, 2, 2)
+	G[0]	(EMPTY!)
+
+Running CEA with class[1] = 2
+
+	Training with training_data[0] = 31111
+	S[1]	(0, 0, 0, 0)
+	G[5]	(2, ?, ?, ?), (3, ?, ?, ?), (?, 2, ?, ?), (?, ?, 2, ?), (?, ?, ?, 2)
+
+	Training with training_data[1] = 21112
+	S[1]	(1, 1, 1, 2)
+	G[1]	(?, ?, ?, 2)
+
+	Training with training_data[2] = 31121
+	S[1]	(1, 1, 1, 2)
+	G[1]	(?, ?, ?, 2)
+
+	Training with training_data[3] = 11122
+	S[1]	(1, 1, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[4] = 31211
+	S[1]	(1, 1, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[5] = 21212
+	S[1]	(1, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[6] = 31221
+	S[1]	(1, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[7] = 11222
+	S[1]	(1, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[8] = 32111
+	S[1]	(1, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[9] = 22112
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[10] = 32121
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[11] = 12122
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[12] = 32211
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[13] = 22212
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[14] = 32221
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[15] = 32222
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[16] = 33111
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[17] = 33121
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[18] = 13122
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[19] = 33211
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[20] = 23212
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[21] = 33221
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+	Training with training_data[22] = 33222
+	S[1]	(?, ?, 1, 2)
+	G[1]	(?, ?, 1, 2)
+
+Running CEA with class[2] = 3
+
+	Training with training_data[0] = 31111
+	S[1]	(1, 1, 1, 1)
+	G[1]	(?, ?, ?, ?)
+
+	Training with training_data[1] = 21112
+	S[1]	(1, 1, 1, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[2] = 31121
+	S[1]	(1, 1, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[3] = 11122
+	S[1]	(1, 1, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[4] = 31211
+	S[1]	(1, ?, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[5] = 21212
+	S[1]	(1, ?, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[6] = 31221
+	S[1]	(1, ?, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[7] = 11222
+	S[1]	(1, ?, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[8] = 32111
+	S[1]	(?, ?, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[9] = 22112
+	S[1]	(?, ?, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[10] = 32121
+	S[1]	(?, ?, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[11] = 12122
+	S[1]	(?, ?, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[12] = 32211
+	S[1]	(?, ?, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[13] = 22212
+	S[1]	(?, ?, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[14] = 32221
+	S[1]	(?, ?, ?, 1)
+	G[1]	(?, ?, ?, 1)
+
+	Training with training_data[15] = 32222
+	S[0]	(EMPTY!)
+	G[0]	(EMPTY!)
+
+	Training with training_data[16] = 33111
+	S[0]	(EMPTY!)
+	G[0]	(EMPTY!)
+
+	Training with training_data[17] = 33121
+	S[0]	(EMPTY!)
+	G[0]	(EMPTY!)
+
+	Training with training_data[18] = 13122
+	S[0]	(EMPTY!)
+	G[0]	(EMPTY!)
+
+	Training with training_data[19] = 33211
+	S[0]	(EMPTY!)
+	G[0]	(EMPTY!)
+
+	Training with training_data[20] = 23212
+	S[0]	(EMPTY!)
+	G[0]	(EMPTY!)
+
+	Training with training_data[21] = 33221
+	S[0]	(EMPTY!)
+	G[0]	(EMPTY!)
+
+	Training with training_data[22] = 33222
+	S[0]	(EMPTY!)
+	G[0]	(EMPTY!)
+
+Finished!
